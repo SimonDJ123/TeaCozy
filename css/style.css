@@ -1,0 +1,44 @@
+/* Body */
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  height: 50px;
+  margin-left: 10px;
+  color: seashell;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav span {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+
+/* Mission Statement */
