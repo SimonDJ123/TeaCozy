@@ -2,6 +2,7 @@
 
 body {
 display: flex;
+justify-content: center;
   margin: 0;
   font-family: Helvetica;
   font-size: 22px;
@@ -9,7 +10,6 @@ display: flex;
   background-color: black;
   opacity: 0.9;
   text-align: center;
-  justify-content: center;
 }
 
 div {
@@ -29,28 +29,33 @@ header {
   background-color: black;
 }
 
-.logo {
-  display: flex;
-  flex-grow: 1;
-  height: 50px;
-  margin-left: 10px;
-  color: seashell;
+header img {
+height: 50px;
+padding-left: 10px;
 }
 
 nav {
-  display: flex;
-  justify-content: flex-end;
+  text-align: right;
+  flex-grow: 1;
 }
 
 nav span {
-  padding-left: 20px;
-  padding-right: 20px;
-  text-decoration: underline;
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Main */
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
 }
 
 /* Mission Statement */
 
-#mission-statement {
+#mission {
   height: 700px;
   background-image: url(/Users/simondjanogly/TeaCozy/css/images/img-mission-background.jpg);
   padding-top: 70px;
@@ -59,12 +64,16 @@ nav span {
 .flex-container {
   display: flex;
   justify-content: center;
-align-items: center;
-  width: 1200px;
+  flex-wrap: wrap;
 }
 
-#mission-statement .content {
+#mission .content {
   margin: auto;
   background-color: black;
   width: 100%;
+}
+
+h2 h3 h4 {
+  margin: 0;
+  padding: 10px;
 }
