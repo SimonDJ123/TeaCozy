@@ -7,6 +7,11 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
+}
+
+div {
+  display: block;
 }
 
 /* Header */
@@ -42,3 +47,21 @@ nav span {
 }
 
 /* Mission Statement */
+
+#mission {
+  height: 700px;
+  background-image: url(/Users/simondjanogly/TeaCozy/css/images/img-mission-background.jpg);
+  padding-top: 70px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
