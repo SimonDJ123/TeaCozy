@@ -1,6 +1,7 @@
 /* Body */
 
 body {
+display: flex;
   margin: 0;
   font-family: Helvetica;
   font-size: 22px;
@@ -8,6 +9,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  justify-content: center;
 }
 
 div {
@@ -48,7 +50,7 @@ nav span {
 
 /* Mission Statement */
 
-#mission {
+#mission-statement {
   height: 700px;
   background-image: url(/Users/simondjanogly/TeaCozy/css/images/img-mission-background.jpg);
   padding-top: 70px;
@@ -57,10 +59,11 @@ nav span {
 .flex-container {
   display: flex;
   justify-content: center;
+align-items: center;
   width: 1200px;
 }
 
-#mission .content {
+#mission-statement .content {
   margin: auto;
   background-color: black;
   width: 100%;
