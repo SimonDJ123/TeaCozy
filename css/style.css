@@ -77,3 +77,15 @@ h2 h3 h4 {
   margin: 0;
   padding: 10px;
 }
+
+/* Store */
+
+.items {
+  display: flex;
+  flex-direction: row;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+}
