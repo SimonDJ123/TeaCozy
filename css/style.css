@@ -1,8 +1,8 @@
 /* Body */
 
 body {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
   margin: 0;
   font-family: Helvetica;
   font-size: 22px;
@@ -12,12 +12,7 @@ justify-content: center;
   text-align: center;
 }
 
-div {
-  display: block;
-}
-
 /* Header */
-
 header {
   display: flex;
   z-index: 1;
@@ -28,29 +23,25 @@ header {
   border-bottom: 1px solid seashell;
   background-color: black;
 }
-
 header img {
 height: 50px;
 padding-left: 10px;
 }
-
 nav {
   text-align: right;
   flex-grow: 1;
 }
-
 nav span {
   display: inline-block;
   padding: 20px 10px;
+  text-decoration: underline;
+  color: black;
 }
 
 /* Main */
-
 .main {
   padding-top: 69px;
   opacity: 0.9;
-  width: 1200px;
-  margin: auto;
 }
 
 /* Mission Statement */
@@ -58,34 +49,92 @@ nav span {
 #mission {
   height: 700px;
   background-image: url(/Users/simondjanogly/TeaCozy/css/images/img-mission-background.jpg);
-  padding-top: 70px;
+  margin-top: 0px;
 }
-
 .flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-
 #mission .content {
+  width: 1200px;
   margin: auto;
   background-color: black;
   width: 100%;
 }
-
 h2 h3 h4 {
   margin: 0;
   padding: 10px;
 }
 
 /* Store */
-
-.items {
+#store {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  width: 1000px;
+  margin-top: 100px;
 }
-
+.store.title {
+  align-items: center;
+}
+.flex-container.items {
+display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#store .item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
 .item img {
   height: 200px;
   width: 300px;
+}
+.item span {
+padding-top: 10px;
+}
+
+/* Locations */
+
+#locations {
+display: flex;
+flex-direction: column;
+  background-image: url(/Users/simondjanogly/TeaCozy/css/images/img-locations-background.jpg);
+  height: 500px;
+  margin-top: 100px;
+}
+#locations h2 {
+  margin-bottom: 15px;
+}
+.addresses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.address {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
+.address.east-bayside {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.address span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+/* Footer */
+footer {
+  justify-content: center;
+  height: 200px;
+}
+
+.copy  {
+  text-align: left;
+  margin-left: 20px;
 }
