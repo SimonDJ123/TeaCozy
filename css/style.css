@@ -103,6 +103,7 @@ flex-direction: column;
   background-image: url(/Users/simondjanogly/TeaCozy/css/images/img-locations-background.jpg);
   height: 500px;
   margin-top: 100px;
+  padding-top: 70px;
 }
 #locations h2 {
   margin-bottom: 15px;
@@ -121,11 +122,10 @@ flex-direction: column;
   margin-left: 40px;
   margin-right: 40px;
 }
-.address span {
-  display: flex;
+.address p {
+  display: block;
   justify-content: center;
   align-items: center;
-  padding-bottom: 30px;
 }
 
 /* Footer */
